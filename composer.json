@@ -1,0 +1,25 @@
+{
+    "name": "unotknowwhoisme/Citrus",
+    "description": "Micro MVC framework",
+	"keywords": ["framework"],
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "Alex Fedoreev",
+            "email": "hash2k@vk.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "twig/twig": "^3.6",
+        "catfan/medoo": "^2.1"
+    },
+	"autoload": {
+        "files": [
+            "src/Helpers.php"
+        ],
+        "psr-4": {
+            "Citrus\\": "src"
+        }
+    }
+}
