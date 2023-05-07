@@ -40,7 +40,7 @@ class Application implements ApplicationInterface {
 
     public function router() : RouterInterface
     {
-        return CI::get('citrus_redirect');
+        return CI::get('citrus_router');
     }
 
     public function session() : SessionInterface
